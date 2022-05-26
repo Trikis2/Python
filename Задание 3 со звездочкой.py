@@ -1,5 +1,6 @@
-symbol = '$ '
+symbol = '$'
 i = 0
-while i != 5:
+list = [1, 2, 3, 5]
+for i in list:
     print(symbol * i)
     i += 1
