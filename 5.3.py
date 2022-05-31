@@ -4,4 +4,5 @@ def is_18(number):
     else:
         return False
 
-print(is_18(8))
+number = int(input())
+print(is_18(number))
